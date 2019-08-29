@@ -3,9 +3,9 @@
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
-package 'httpd'
+package 'apache2'
 
-service 'httpd' do
+service 'apache2' do
   action [:enable, :start]
 end
 
